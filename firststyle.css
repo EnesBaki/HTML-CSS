@@ -1,0 +1,147 @@
+body{
+    background: lightsteelblue;
+}
+
+mark{
+    background: crimson;
+    color: darkorange;
+    text-decoration-color: crimson;
+
+}
+
+#captain{
+    color: darkslategray;
+    display: inline-block;
+}
+li {
+    color: blueviolet;
+}
+
+.en{
+    color: darkred;
+}
+
+.tr{
+    color: #ff0925;
+}
+
+.fr{
+    color:darkblue;
+}
+
+.it{
+    color: green;
+}
+
+.name::before{
+    content:attr(data-name);
+    font-palette: dark;
+
+
+}
+
+[data-name]::after{
+    content:"  Cinsiyet: " attr(data-c) ;
+}
+[data-c="E"]{
+    color: #591313;
+
+    font-palette: dark;
+}
+
+[data-c="K"]{
+    color: #a350b9;
+
+    font-palette: dark;
+}
+
+.lesson{
+    padding: 10px;
+    margin: 10px;
+    border: solid;
+    border: black;
+    color: beige;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    background-image:url("bgg.jpeg");
+}
+
+.notlar{
+    padding: 10px;
+    margin: 10px;
+    border: solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+    background-color: #207c8c;
+
+
+}
+
+#baslik{
+    border-radius: 15px;
+    background: #7dcb3d;
+    border: solid;
+
+}
+
+[colspan="2"]{
+    text-align: center;
+    background-color: darkslategray;
+    border-radius: 13px;
+    border-color: black;
+
+
+}
+[target]::selection{
+  background-color: gold;
+    color: black;
+}
+
+[target]:link{
+    text-decoration: none;
+}
+
+ul li:first-child{
+    background-color:navajowhite;
+
+}
+
+[name="cinsiyet"]:checked + span{
+    color: darkorange;
+    font-size: large;
+    font-style: normal;
+}
+
+
+.cb::before{
+    content: attr(data-h);
+}
+
+.checkbox:checked + .cb::before{
+    content: attr(data-s);
+}
+
+.checkbox:checked+label+div{
+    display: none;
+}
+
+
+h3 p{
+    color: #7dcb3d;
+}
+
+.deneme{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+

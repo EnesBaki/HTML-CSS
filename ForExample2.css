@@ -1,0 +1,65 @@
+h3 span{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #207c8c;
+}
+
+
+{
+    text-decoration: none;
+}
+
+#firstdiv {
+
+    height: 300px;
+    width: 300px;
+    border: 25px solid #ffdf10;
+    background-color: #591313;
+    padding: 25px;
+    text-align: center;
+    margin: auto;
+
+    box-sizing: border-box; /* belirtilen width ve height ölçüleri içinde border ve padding değerleri verilir */
+}
+
+#firstp{
+    white-space: pre;
+    white-space: nowrap;
+    white-space: pre-wrap;
+
+
+}
+
+.box{
+    border: 10px dashed #dc1f29;
+    padding: 30px;
+    width: 500px;
+    margin: auto;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-image: url("gsslogoo.png");
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+.gradyan{
+    width: 400px;
+    border: 10px dashed #2e96a8;
+    padding: 35px;
+    margin: auto;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bold;
+    background-image: linear-gradient(to right,yellow ,red );
+    background-origin: border-box;
+    -webkit-background-clip: text;
+
+    color: transparent;
+
+
+
+
+}
